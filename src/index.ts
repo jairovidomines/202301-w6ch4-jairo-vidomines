@@ -1,1 +1,4 @@
-let a = 3;
+import "./loadEnvironment";
+import express from "express";
+
+const app = express();
